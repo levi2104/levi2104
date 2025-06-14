@@ -130,4 +130,4 @@ it gives u the changes history that wt u have added, removed etc
 >>>>>>> parent of 436c07d (Added a function in index.js)
 
 now if u do: git revert <commit_id_short>
-it creates an opposite code, whatever was removed, it adds and whatever was added, it removes
+it creates an opposite code, whatever was removed, it adds and whatever was added, it removes, and if u add, commit and log, u can see that there's another commit which is having the opposite code of whatever was there in the commit which we wanted to revert
