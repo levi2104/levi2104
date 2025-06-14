@@ -95,4 +95,4 @@ but now if u type: git commit
 it will say like no changes added to commit
 
 ## Staging area:
-in image copy.png, we can see that there's an empty staging area, now, as we have modified the 2 files, they cant be commited directly, we first need to use: git add <file_path> or git add . (for all files), this moves the modified files to the staging area, and now if u do git commit, they're committed
+in image copy.png, we can see that there's an empty staging area, now, as we have modified the 2 files, they cant be commited directly, we first need to use: git add <file_path> or git add . (for all files), this moves the modified files to the staging area, and now if u do git commit -m "<message>", they're committed

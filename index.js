@@ -5,5 +5,5 @@ function isAbove18(){
 }
 
 function newFn(){
-  console.log("i am a new function");
+  console.log("i am a newwww function");
 }
