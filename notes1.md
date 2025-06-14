@@ -37,6 +37,7 @@ now whatever u add or remove from it, will be tracked by git
 
 if u type : git diff
 
+<<<<<<< HEAD
 it gives u the changes history that wt u have added, removed etc
 
 ## git add . :
@@ -124,3 +125,9 @@ now, if u log the commit history, the latest commit is now removed and 2nd lates
 
 
 now, see in imagecopy2.png, there are 5 commits, if u dont want a feature from 2nd commit, then we can take our head to 1st commit, so 2nd 3rd 4th and 5th commits are now removed from history, but, what if, i wanted 3rd 4th and 5th commits, then its lost now, so, there's another way of reverting back
+=======
+it gives u the changes history that wt u have added, removed etc
+>>>>>>> parent of 436c07d (Added a function in index.js)
+
+now if u do: git revert <commit_id_short>
+it creates an opposite code, whatever was removed, it adds and whatever was added, it removes
