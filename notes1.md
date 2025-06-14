@@ -96,3 +96,31 @@ it will say like no changes added to commit
 
 ## Staging area:
 in image copy.png, we can see that there's an empty staging area, now, as we have modified the 2 files, they cant be commited directly, we first need to use: git add <file_path> or git add . (for all files), this moves the modified files to the staging area, and now if u do git commit -m "<message>", they're committed
+
+
+when u do : git add <file_name> or git add . 
+u can see in source control section of vs code, that files moves from changes section to staged changes section, so now they're staged and ready to be committed
+
+once u commit, u can see that now there's no staged changes, as they're now committed
+
+
+## Reverting back:
+lets say if u done 5 commits, in first 4 commits, there's no bug or that code is not faulty, but lets say, in 5th commit, u made a bug, then to revert back to the last bug free code, we need this revert back feature. 
+
+in image copy2.png, u can see that this commits are basically joined by a linked list, and as we know, linked list's head is always pointing to the latest/last node added. 
+
+hence keeping a good commit history, i.e step by step commits, its easy to revert back
+
+lets understand with e.g:
+i made a change in util.js, which is creating a bug, but still i add it and commit it
+
+so now ur head is at latest commit
+
+but, u want to revert back to the last bugfree code, so, what u do is, u basically change ur head pointer from last(buggy) to the 2nd last commit(bugfree) using a cmd: git reset --hard <commit_id_short>
+
+now observe that, the bug in util.js i.e params were a and b, but we were using return a + num2, num2 isnt a param, so it was the bug, but, as soon as we give this cmd of hard reset, it reverts back to the 2nd last commit, where the utils.py was return a + b, which is bugfree
+
+now, if u log the commit history, the latest commit is now removed and 2nd latest becomes latest now. 
+
+
+now, see in imagecopy2.png, there are 5 commits, if u dont want a feature from 2nd commit, then we can take our head to 1st commit, so 2nd 3rd 4th and 5th commits are now removed from history, but, what if, i wanted 3rd 4th and 5th commits, then its lost now, so, there's another way of reverting back
