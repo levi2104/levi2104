@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const age1 = 24
 
 function isAbove18(){
@@ -8,6 +7,7 @@ function isAbove18(){
 function newFn(){
   console.log("i am a newwww function");
 }
-=======
-const age = 24
->>>>>>> parent of 436c07d (Added a function in index.js)
+
+function newFeature(){
+  console.log("this is a new feature");
+}
