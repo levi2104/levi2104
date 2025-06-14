@@ -38,3 +38,34 @@ now whatever u add or remove from it, will be tracked by git
 if u type : git diff
 
 it gives u the changes history that wt u have added, removed etc
+
+## git add . :
+
+when u do : git add .
+
+it starts tracking all the files in the current directory even if they're inside sub directories/folders
+
+## git remove:
+
+if u want some tracked file to be untracked again, u can do that using :
+
+git rm <file_path>
+
+
+## commits:
+
+whenver u feel that okay now the changes are complete of lets say any file or folders having multiple files, u do smthin called commit and give a msg like "initial code added" 
+
+cmd : git commit -m "Initial Code Added"
+
+
+## git log:
+
+by giving this cmd : git log
+
+u can see the commit history, that who has commited? and when? 
+
+and this is : commit e40b9f088af1835906254832f6b140199fe7639c
+
+known as commit id
+
