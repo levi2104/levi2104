@@ -15,5 +15,6 @@ function newFeature(){
   console.log("this is a new feature again");
   console.log("this is a new feature by feature-b branch");
   console.log("this is a new feature by feature-c branch");
+  console.log("this is a new feature-2 by feature-c branch");
 }
 origin/john-branch
