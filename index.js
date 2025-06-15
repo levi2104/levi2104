@@ -5,7 +5,7 @@ function isAbove18(){
 }
 
 function newFn(){
-  console.log("i am a newwww function");
+  console.log("i am a newwww function and this is the change by stashing");
 }
 HEAD
 
