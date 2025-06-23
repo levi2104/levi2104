@@ -32,7 +32,8 @@ Here are some projects I’ve worked on:
 
 ### 📌 Currently Learning
 
-- 📦 Backend: Django, Django Rest Framework (DRF)
+- Backend: NodeJS, ExpressJS
+- Database: MongoDB
 
 ---
 
