@@ -14,7 +14,7 @@
 ### 🛠️ Languages & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react,js,tailwind,html,css,vite,redux,git,python,django,java" />
+  <img src="https://skillicons.dev/icons?i=react,js,tailwind,html,css,vite,redux,git,python,django,java,node,express,mongodb" />
 </p>
 
 ---
